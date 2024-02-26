@@ -12,9 +12,13 @@ int main()
     // compute nLuas = nSisi * nSisi
     // display 'Luasnya adalah =' +nLuas 
 
-    int nSisi, nLuas;
-    cout << "masukan Sisi = ";
-    cin >> nSisi;
-    nLuas = nSisi * nSisi;
-    cout << "Luasnya adalah = " << nLuas << endl;
+    //int nSisi, nLuas;
+    // cout << "masukan Sisi = ";
+    // cin >> nSisi;
+    //nLuas = nSisi * nSisi;
+   // cout << "Luasnya adalah = " << nLuas << endl;
+
+    string cars[5] = { "Volvo", "BMW", "Ford", "Mazda", "toyota" };
+    cout << cars[4];
+    return 0;
 }//end
