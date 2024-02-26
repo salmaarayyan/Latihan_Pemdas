@@ -6,19 +6,23 @@ using namespace std;
 
 int main()
 {//begin
-    // numeric nSisi, nLuas
-    // display 'masukan Sisi ='
-    // accept nSisi
-    // compute nLuas = nSisi * nSisi
-    // display 'Luasnya adalah =' +nLuas 
+	//numeric nV1, nV2, nV3, nHasil
+	//display 'masukan nilai pertama ='
+	//accept nV1
+	//display 'masukan nilai kedua ='
+	//accept nV2
+	//display 'masukan nilai ketiga ='
+	//accept nV3
+	//compute nHasil = nV1 + nV2 - nV3
+	//display 'hasilnya adalah =' + nHasil
 
-    //int nSisi, nLuas;
-    // cout << "masukan Sisi = ";
-    // cin >> nSisi;
-    //nLuas = nSisi * nSisi;
-   // cout << "Luasnya adalah = " << nLuas << endl;
-
-    string cars[5] = { "Volvo", "BMW", "Ford", "Mazda", "toyota" };
-    cout << cars[4];
-    return 0;
+	int nV1, nV2, nV3, nHasil;
+	cout << "masukan nilai pertama =";
+	cin >> nV1;
+	cout << "masukan nilai kedua =";
+	cin >> nV2;
+	cout << "masukan nilai ketiga =";
+	cin >> nV3;
+	nHasil = nV1 + nV2 - nV3;
+	cout << "hasilnya adalah =" << nHasil << endl;
 }//end
