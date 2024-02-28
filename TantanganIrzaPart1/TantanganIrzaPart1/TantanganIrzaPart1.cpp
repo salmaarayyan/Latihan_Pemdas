@@ -29,9 +29,5 @@ avg = f1/d1;
 cout << "masukan nilai f1 = " << f1 << endl;
 cout << "masukan nilai d1 = " << d1 << endl;
 cout << "maka hasilnya adalah = " << avg << endl;
-
-
-
- 
 }
 
